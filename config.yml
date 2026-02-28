@@ -1,0 +1,16 @@
+# 楽天市場 在庫監視設定
+# キーワードを編集して監視したい商品を追加してください
+
+monitor:
+  # キーワード間のAPI呼び出し間隔（秒）
+  api_delay: 1.5
+
+keywords:
+  - keyword: "名探偵プリキュア シールバインダー"
+    min_price: null
+    max_price: null
+
+  # 追加したいキーワードがあれば以下のように追加:
+  # - keyword: "商品名"
+  #   min_price: null
+  #   max_price: null
